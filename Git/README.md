@@ -8,7 +8,6 @@ Git is a free and open source distributed version control system designed to han
 
 ##### Example
 
-commit 5254901063c7e7852cf788357cef
 Author: Darko <example@example.com>
 Date: Sun Feb 19 01:19:41 2023 +0100
 
