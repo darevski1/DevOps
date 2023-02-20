@@ -6,8 +6,9 @@ Git is a free and open source distributed version control system designed to han
 
 ### Configuring user information used across all local repositories
 
-### Basic git commands
 
+
+### Basic git commands
 $ **git config --global user.name** youname
 Setup an username
 
@@ -18,11 +19,10 @@ Setup an email address that will be associated with each history marker
 
 ---
 
-$ **git status**
+
+$ **git status** 
 Gives information on the current content status of a git repository and its contents
-
 ---
-
 $ **git init**
 Create new repository, Before we can do anything git-related, we must initalize a repo first.
 
@@ -31,20 +31,29 @@ Example - create new folder **myfirstrepo** open the folder via cmd and type **g
     mkdir myfirstrepo // create folder
     cd myfirstrepo // accees the foolder
     git init // initalize a repo
-
 Output:
 Initialized empty Git repository in **C:/path/to/the/reposity/myfirstrepo/.git/**
-
----
-
-$ **git log**
+___
+$ **git log** 
 Shows a default output for quickly reviewing the commit history
-
----
-
+___
 ##### Example
-
-Author: Darko <example@example.com>
-Date: Sun Feb 19 01:19:41 2023 +0100
+Author: Darko  <example@example.com>
+Date:   Sun Feb 19 01:19:41 2023 +0100
 
     readme file added in git
+
+### Git add & commit
+$ **git add --all** // will add all files changes in  staging
+Example:
+
+    $ git add --all
+    
+$ **git add file1 file2 file3** // will add only file we specify to staging phase
+    
+    $ git add file.txt file2.txt file3.txt
+    
+$ **git commit -m  "you commit message"** // after we add files in staging phase we have to add commit message
+    **Example**
+    
+    : $ git commit -m "login page functionality created"
