@@ -6,13 +6,6 @@ Git is a free and open source distributed version control system designed to han
 
 ### Configuring user information used across all local repositories
 
-##### Example
-
-Author: Darko <example@example.com>
-Date: Sun Feb 19 01:19:41 2023 +0100
-
-    readme file added in git
-
 ### Basic git commands
 
 $ **git config --global user.name** youname
@@ -48,3 +41,10 @@ $ **git log**
 Shows a default output for quickly reviewing the commit history
 
 ---
+
+##### Example
+
+Author: Darko <example@example.com>
+Date: Sun Feb 19 01:19:41 2023 +0100
+
+    readme file added in git
