@@ -5,6 +5,8 @@ Inventory File is file which is resposible for kepping a list of all devices, ma
 
 **/etc/ansible/hosts**
 .example
+
+
     # This is the default ansible 'hosts' file.
     #
     # It should live in /etc/ansible/hosts
